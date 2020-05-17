@@ -1,0 +1,44 @@
+{
+  "expo": {
+      "scheme": "proplannerapp",
+      "name": "ProPlanner",
+      "privacy": "public",
+      "orientation": "portrait",
+      "primaryColor" : "#0f9fb6",
+      "facebookScheme": "fb123",
+      "facebookAppId":"123",
+      "facebookDisplayName": "ProPlanner",
+      "icon": "./assets/images/icon.png",
+      "version": "1.0.0",
+      "slug": "ProPlannerSlug",
+      "ios": {
+          "bundleIdentifier": "com.ipsum.proplannerapp",
+          "supportsTablet": true
+      },
+      "android": {
+      "package": "com.ipsum.proplannerapp"
+      },
+      "notification": {
+          "icon": "./assets/images/icon.png"
+      },
+      "splash": {
+          "image": "./assets/images/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#585858"
+      },
+      "web": {
+          "favicon": "./assets/images/favicon.png"
+      },
+      "assetBundlePatterns": [
+          "**/*"
+      ],
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "platforms": [
+          "ios",
+          "android",
+          "web"
+      ]
+  }
+}

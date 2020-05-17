@@ -1,0 +1,23 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+      "standard"
+    ],
+    "env": {
+      "mocha": false,
+      "jasmine": true
+    },
+    "rules":{
+      "no-useless-catch": "off",
+      "no-misleading-character-class": "off",
+      "no-async-promise-executor": "off",
+      "import/no-duplicates": "off",
+      "no-throw-literal": "off",
+      "semi":"off",
+      "eqeqeq": "off",
+      "indent": ["error", 4],
+      "no-unused-vars": "off",
+      "no-undef": "off",
+      "camelcase": "off"
+    }
+}
